@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap");
+:root {
+  --blanco: #fff;
+  --violeta: #9b1dc2;
+  --amarillo: #edda4c;
+  --rojo: #c95b59;
+  --azul: #3440c2;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+
+.boton {
+  width: 120px;
+  background-color: purple;
+  padding: 12px;
+  border: solid 1px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
+  font-size: 16px;
+  font-weight: 30px;
+  align-items: center;
+}
+.boton--border {
+  border: solid 1px #323233;
+  background-color: #fff;
+  color: blueviolet;
+}
+
+.boton__texto {
+  /* color: #fff;*/
+}
+.boton__icono {
+  /*  color: #fff;*/
+}
+.boton:hover {
+  background-color: #ffff;
+  color: blueviolet;
+  border: solid 1px rgb(0, 0, 0);
+}
+.boton--border:hover {
+  background-color: #bf17f2;
+  color: rgb(255, 255, 255);
+  border: solid 1px pink;
+}
+.boton--violeta :hover {
+  border: solid 1px var(--violeta);
+  background: var(--violeta);
+  color: #fff;
+  border: solid 1px #323233;
+}
+.boton--amarillo {
+  border: solid 1px var(--amarillo);
+  background: var(--amarillo);
+  color: #fff;
+  border: solid 1px #323233;
+}
+.boton--rojo {
+  border: solid 1px var(--rojo);
+  background: var(--rojo);
+  color: #fff;
+  border: solid 1px #323233;
+}
+
+.boton--azul {
+  border: solid 1px var(--azul);
+  background: var(--azul);
+  color: #fff;
+  border: solid 1px #323233;
+}
+.boton--borde--violeta {
+  border: solid 1px var(--violeta);
+  background-color: var(--blanco);
+  color: var(--violeta);
+}
+.boton--borde--amarillo {
+  border: solid 1px var(--amarillo);
+  background-color: var(--blanco);
+  color: var(--amarillo);
+}
+.boton--borde--rojo {
+  border: solid 1px var(--rojo);
+  background-color: var(--blanco);
+  color: var(--rojo);
+}
+.boton--borde--azul {
+  border: solid 1px var(--azul);
+  background-color: var(--blanco);
+  color: var(--azul);
+}
+.lista {
+  width: 100%;
+  background-color: var(--violeta);
+}
+.lista_item {
+  border: solid 1px #000;
+  padding: 12px;
+}
+.lista_texto {
+}
+.lista_icono {
+}
